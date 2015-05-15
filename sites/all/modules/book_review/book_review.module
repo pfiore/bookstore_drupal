@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Book Review feature.
  */
+
+include_once 'book_review.features.inc';
