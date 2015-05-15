@@ -1,0 +1,14 @@
+name = Site Configuration
+description = track the strongarm variables site_name, site_slogan, theme_default and site_frontpage
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = site_configuration
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = site_frontpage
+features[variable][] = site_name
+features[variable][] = site_slogan
+features[variable][] = theme_default
