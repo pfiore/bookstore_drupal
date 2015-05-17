@@ -1,3 +1,19 @@
+DATA BASE:
+-------------------
+bookstore_db
+
+ADMIN:
+-------------------
+name: Patrick
+password: drupal
+
+REVIEWER(account for a reviwer)
+-------------------
+name: Sisco Ebert
+password: drupal
+
+
+
 
 CONTENTS OF THIS FILE
 ---------------------
